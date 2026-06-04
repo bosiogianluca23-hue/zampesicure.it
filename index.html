@@ -49,48 +49,51 @@ body{
 }
 
 .content{
+.content{
     position:relative;
     z-index:2;
-    text-align:center;
-    max-width:900px;
-    padding:30px;
+    width:95%;
+    max-width:1600px;
+    padding:40px;
     animation:fadeIn 2s ease;
+
 }
 
 h1{
-    font-size:64px;
-    margin-bottom:20px;
+    font-size:90px;
+    margin-bottom:30px;
     font-weight:700;
 }
 
 .subtitle{
-    font-size:24px;
-    line-height:1.6;
+    font-size:34px;
+    line-height:1.7;
     margin-bottom:40px;
 }
 
 .donate-box{
-    background:rgba(255,255,255,0.12);
+    background:rgba(255,255,255,0.15);
     backdrop-filter:blur(8px);
-    padding:30px;
-    border-radius:20px;
-    margin-top:20px;
+    padding:50px;
+    border-radius:25px;
+    margin-top:40px;
 }
 
 .info{
-    margin:20px 0;
-    font-size:20px;
+    margin:25px 0;
+    font-size:30px;
     line-height:1.8;
 }
 
 .button{
+  .button{
     display:inline-block;
-    margin-top:25px;
-    padding:18px 40px;
+    margin-top:30px;
+    padding:25px 70px;
     background:#ff9800;
     color:white;
     text-decoration:none;
-    font-size:22px;
+    font-size:34px;
     border-radius:50px;
     transition:0.3s;
     font-weight:600;
@@ -141,13 +144,13 @@ h1{
 .hero-layout{
     display:flex;
     align-items:center;
-    justify-content:center;
-    gap:40px;
-    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:80px;
+    flex-wrap:nowrap;
 }
 
 .photo-box img{
-    width:300px;
+    width:550px;
     max-width:100%;
     border-radius:20px;
     box-shadow:0 0 25px rgba(0,0,0,0.5);
@@ -217,7 +220,9 @@ h1{
     <div class="donate-box">
             <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="JB3MYZQGNUNAG" />
-<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Fai una donazione con il pulsante PayPal" />
+<input type="image"
+src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif"
+style="width:350px;"border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Fai una donazione con il pulsante PayPal" />
 <img alt="" border="0" src="https://www.paypal.com/it_IT/i/scr/pixel.gif" width="1" height="1" />
 </form>
 
