@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -49,8 +50,6 @@ body{
 }
 
 .content{
-    trasform:scale(1.8);
-}
     position:relative;
     z-index:2;
     text-align:center;
@@ -60,13 +59,13 @@ body{
 }
 
 h1{
-    font-size:90px;
+    font-size:64px;
     margin-bottom:20px;
     font-weight:700;
 }
 
 .subtitle{
-    font-size:32px;
+    font-size:24px;
     line-height:1.6;
     margin-bottom:40px;
 }
@@ -74,7 +73,7 @@ h1{
 .donate-box{
     background:rgba(255,255,255,0.12);
     backdrop-filter:blur(8px);
-    padding:60px;
+    padding:30px;
     border-radius:20px;
     margin-top:20px;
 }
@@ -140,38 +139,7 @@ h1{
         transform:translateY(0);
     }
 }
-.hero-layout{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:50px;
-    flex-wrap:wrap;
-}
 
-.cat-image{
-    width:320px;
-    border-radius:20px;
-    box-shadow:0 10px 30px rgba(0,0,0,0.4);
-}
-
-.text-area{
-    max-width:650px;
-}
-
-.donate-box{
-    background:rgba(255,255,255,0.15);
-    backdrop-filter:blur(10px);
-    padding:60px;
-    border-radius:20px;
-    margin-top:25px;
-    min-width:500px;
-}
-
-.info{
-    margin:25px 0;
-    font-size:24px;
-    line-height:1.8;
-}
 @media(max-width:768px){
 
     h1{
@@ -211,56 +179,38 @@ h1{
 
     <div class="content">
 
-    <div class="hero-layout">
+        <h1>Salviamo Cani e Gatti ❤️</h1>
 
-        <div class="text-area">
+        <p class="subtitle">
+            Ogni donazione aiuta animali abbandonati a ricevere cure,
+            cibo, protezione e una nuova possibilità di vita.
+        </p>
 
-            <h1>Salviamo Cani e Gatti ❤️</h1>
+        <div class="donate-box">
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="JB3MYZQGNUNAG" />
+<input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Fai una donazione con il pulsante PayPal" />
+<img alt="" border="0" src="https://www.paypal.com/it_IT/i/scr/pixel.gif" width="1" height="1" />
+</form>
 
-            <p class="subtitle">
-                Ogni donazione aiuta animali abbandonati a ricevere cure,
-                cibo, protezione e una nuova possibilità di vita.
-            </p>
 
-            <div class="donate-box">
-
-                <form action="https://www.paypal.com/donate" method="post" target="_top">
-                    <input type="hidden" name="hosted_button_id" value="JB3MYZQGNUNAG" />
-                    <input type="image"
-                           src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donateCC_LG.gif"
-                           border="0"
-                           name="submit">
-                </form>
-
-                <div class="info">
-                    <strong>IBAN</strong><br>
-                    IT09F0301503200000005839965
-                </div>
-
-                <div class="info">
-                    <strong>Email</strong><br>
-                    lukybosio@alice.it
-                </div>
-
-                <div class="info">
-                    <strong>Telefono</strong><br>
-                    +39 3453995837
-                </div>
-
-                <a href="mailto:lukybosio@alice.it" class="button">
-                    DONA ORA
-                </a>
-
+            <div class="info">
+                <strong>IBAN</strong><br>
+                IT09F0301503200000005839965
             </div>
 
-        </div>
+            <div class="info">
+                <strong>Email</strong><br>
+                lukybosio@alice.it
+            </div>
 
-        <img src="IMG_1418.jpeg"
-             alt="Gatto aiutato"
-             class="cat-image">
+            <div class="info">
+                <strong>Telefono</strong><br>
+                +39 3453995837
+            </div>
 
-    </div>
-
+            <a href="mailto:lukybosio@alice.it" class="button">
+                DONA ORA
             </a>
 
         </div>
@@ -273,14 +223,11 @@ h1{
 
     <h2>Il nostro obiettivo</h2>
 
-    <img src="IMG_1418.jpeg"
-         alt="Gatto aiutato"
-     style="width:450px;border-radius:15px;margin:20px auto;display:block;">
-
     <p>
         Aiutiamo cani e gatti in difficoltà offrendo assistenza veterinaria,
         cibo, cure urgenti e rifugi temporanei.
-        Con il tuo sostegno possiamo salvare molte vite.
+        Con il tuo sostegno possiamo salvare molte vite e dare speranza
+        agli animali che hanno bisogno di amore e protezione.
     </p>
 
 </section>
